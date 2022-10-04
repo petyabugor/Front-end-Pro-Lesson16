@@ -16,7 +16,7 @@ const shedul = async () =>{
         const work = await day(1000, 'Работа')
         console.log(work)
         const relax = await day(1000, 'Отдых')
-        console.log(rela)
+        console.log(relax)
     } catch (error) {
         console.log('Ошибка', error)
     }
